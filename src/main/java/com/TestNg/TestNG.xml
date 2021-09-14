@@ -1,0 +1,25 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Login Test Suite">
+
+    <test name="Login Functional Test 1">
+        <classes>
+            <class name="com.TestNg.LoginTestNG"></class>
+        </classes>
+    </test>
+
+
+    <test name="Login Functional Test 2">
+        <classes>
+            <class name="com.TestNg.DataProviderLoginTest"></class>
+        </classes>
+    </test>
+
+    <test name="Registration Functional Test 3">
+        <classes>
+            <class name="com.TestNg.DataProviderRegTest"></class>
+        </classes>
+    </test>
+
+</suite>

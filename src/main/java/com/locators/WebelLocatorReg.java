@@ -44,6 +44,4 @@ public class WebelLocatorReg extends TestBase {
         RegcontinueBtn.click();
 
     }
-
-
 }
